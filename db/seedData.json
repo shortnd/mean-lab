@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Talon",
+    "lane": "Mid/Top",
+    "imgUrl": "http://vignette1.wikia.nocookie.net/leagueoflegends/images/b/bd/Talon_OriginalLoading.jpg/revision/latest/scale-to-width-down/110?cb=20160526042803",
+    "difficulty": "7"
+  },
+  {
+    "name": "Katarina",
+    "lane": "Mid",
+    "imgUrl": "http://vignette4.wikia.nocookie.net/leagueoflegends/images/9/90/Katarina_OriginalLoading.jpg/revision/latest/scale-to-width-down/110?cb=20160525155543",
+    "difficulty": "8"
+  },
+  {
+    "name": "Resh",
+    "lane": "Bottom",
+    "imgUrl": "http://vignette3.wikia.nocookie.net/leagueoflegends/images/b/b5/Thresh_OriginalLoading.jpg/revision/latest/scale-to-width-down/110?cb=20160526050018",
+    "difficulty": "5"
+  },
+  {
+    "name": "Volibear",
+    "lane": "Jungle",
+    "imgUrl": "http://vignette2.wikia.nocookie.net/leagueoflegends/images/d/d7/Volibear_OriginalLoading.jpg/revision/latest/scale-to-width-down/110?cb=20160526232356",
+    "difficulty": "3"
+  },
+  {
+    "name": "Lucian",
+    "lane": "Bottom",
+    "imgUrl": "http://vignette3.wikia.nocookie.net/leagueoflegends/images/6/6c/Lucian_OriginalLoading.jpg/revision/latest/scale-to-width-down/110?cb=20160517025018",
+    "difficulty": "4"
+  },
+  {
+    "name": "Riven",
+    "lane": "Top",
+    "imgUrl": "http://vignette3.wikia.nocookie.net/leagueoflegends/images/3/30/Riven_OriginalLoading.jpg/revision/latest/scale-to-width-down/110?cb=20160518221613",
+    "difficulty": "9"
+  }
+
+]

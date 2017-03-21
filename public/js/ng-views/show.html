@@ -1,0 +1,20 @@
+<img data-ng-src="{{vm.champ.imgUrl}}" alt="{{vm.item.name}}">
+<h2>{{vm.champ.name}}</h2>
+<h4>Lane: {{vm.champ.lane}}</h4>
+<h4>difficulty: {{vm.champ.difficulty}}</h4>
+
+<button data-ng-click="vm.showEdit = !vm.showEdit" type="button" name="button">Edit</button>
+
+<form data-ng-show="vm.showEdit" data-ng-submit="vm.update()">
+  <input type="text" data-ng-model="vm.champ.name" placeholder="Name">
+  <br>
+  <input type="text" data-ng-model="vm.champ.lane" placeholder="Lane">
+  <br>
+  <input type="text" data-ng-model="vm.champ.imgUrl" placeholder="Img Url">
+  <br>
+  <input type="text" data-ng-model="vm.champ.difficulty" placeholder="difficulty">
+  <br>
+  <button type="submit" name="button">Update Champ</button>
+  <br>
+  <button data-ng-click="vm.destroy()">Kill HIM!!</button>
+</form>

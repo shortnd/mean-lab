@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "hb": "0.0.0",
+    "hbs": "^4.0.1",
     "mongoose": "^4.9.1"
   }
 }

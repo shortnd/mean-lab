@@ -1,0 +1,18 @@
+<h2>There are currently {{vm.champs.length} avaliable!</h2>
+<div data-ng-repeat="champ in vm.champs">
+  <a data-ui-sref="show({ name: champ.name})"><p>{{champ.name}}</p></a>
+</div>
+
+<button data-ng-click="vm.showNew = !vm.showNew" type="button" name="button">New Champion</button>
+
+<form data-ng-show="vm.showNew" data-ng-submit="vm.create()">
+  <input type="text" data-ng-model="vm.newChamp.name" placeholder="Champ Name">
+  <br>
+  <input type="text" data-ng-model="vm.newChamp.lane" placeholder="Lane">
+  <br>
+  <input type="text" data-ng-model="vm.newChamp.imgUrl" placeholder="Image Url">
+  <br>
+  <input type="text" data-ng-model="vm.newChamp.difficulty" placeholder="difficulty 1-10">
+  <br>
+  <button type="submit">Create Champ</button>
+</form>
