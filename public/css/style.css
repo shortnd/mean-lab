@@ -1,27 +1,39 @@
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 body {
-  width: 1090px;
-  margin: 0 auto;
-  background: url("https://cdn.leagueoflegends.com/match-history/opengraph_icon.jpg");
-  font-size: 18px;
-  background-repeat:repeat-x;
-  background-attachment:fixed;
-  background-position: left top;
-  position:absolute;
-  height: 610px
-  width: 10px;
-  margin:0;
+    width: 1090px;
+    margin: 0 auto;
+    background: url("https://cdn.leagueoflegends.com/match-history/opengraph_icon.jpg");
+    font-size: 18px;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: left top;
+    position: absolute;
+    height: 610px width: 10px;
+    margin: 0;
 }
+
 main {
-  text-align: center;
+    text-align: center;
 }
+
 img {
-  width: 150px;
-  height: 250px;
+    width: 150px;
+    height: 250px;
 }
-p{
-  color: white;
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+}
+
+button {
+  padding: 5px;
+  margin: 10px;
+}
+div {
+  padding: 10px;
+  margin: 10px;
 }
