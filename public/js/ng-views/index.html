@@ -1,5 +1,6 @@
-<h2>There are currently {{vm.champs.length} avaliable!</h2>
+<h2>There are currently {{vm.champs.length}} champions avaliable!</h2>
 <div data-ng-repeat="champ in vm.champs">
+  <img src="{{champ.imgUrl}}" alt="">
   <a data-ui-sref="show({ name: champ.name})"><p>{{champ.name}}</p></a>
 </div>
 
