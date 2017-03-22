@@ -5,10 +5,20 @@
 body {
   width: 1090px;
   margin: 0 auto;
+  background: url("https://cdn.leagueoflegends.com/match-history/opengraph_icon.jpg");
+  font-size: 18px;
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  background-position: left top;
+  position:absolute;
+  height: 610px
+  width: 10px;
+  margin:0;
 }
 main {
   text-align: center;
 }
 img {
-  width: 25%;
+  width: 5px;
+  height: 5px;
 }
