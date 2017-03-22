@@ -19,6 +19,9 @@ main {
   text-align: center;
 }
 img {
-  width: 5px;
-  height: 5px;
+  width: 150px;
+  height: 250px;
+}
+p{
+  color: white;
 }
