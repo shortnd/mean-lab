@@ -64,7 +64,7 @@ angular
     this.update = function(){
       console.log("Updating");
       this.champ.$update({ name: $stateParams.name })
-    }
+      }
     this.destroy = function(){
       this.champ.$delete({ name: $stateParams.name }).then(function(){
         $state.go("index")
